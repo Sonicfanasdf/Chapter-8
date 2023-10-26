@@ -4,6 +4,8 @@
 #include<string>
 #include<chrono>
 #include<thread>
+#include<vector>
+#include<algorithm>
 
 using namespace std;
 
@@ -27,4 +29,5 @@ public:
 	void costcoMenu();
 	void simulateLine();
 	void displayCarts(queue<int> line);
+	int longestLine(queue<int>& line1, queue<int>& line2, queue<int>& line3, queue<int>& line4, queue<int>& line5, queue<int>& line6, queue<int>& line7, queue<int>& line8, queue<int>& line9, queue<int>& line10);
 };

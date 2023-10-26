@@ -53,11 +53,15 @@ void Costco::simulateLine() //simulates the costco lines
 	queue<int> line10;
 	int size = 0;
 	int customer = 0;
+	int chance;
+
 	
 	setServed(0);
 
 	while (time-- > 0) //does loop until out of time
 	{
+		chance = rand() % 5;
+
 		system("cls");
 
 		customer = time;
@@ -74,7 +78,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1); //displays the line visually
 
-			if (0 + rand() % 2) //50% chance that the customer will be finished checking out
+			if (chance == 1) //50% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -100,7 +104,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1);
 
-			if (0 + rand() % 2) //50% chance that the customer will be finished checking out
+			if (chance == 1) //50% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -112,7 +116,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if(!line2.empty())
 			{ 
-			if (0 + rand() % 2) //50% chance that the customer will be finished checking out
+			if (chance == 1) //50% chance that the customer will be finished checking out
 			{
 				line2.pop(); //pops customer out of the queue
 				++served;
@@ -122,7 +126,54 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 3:
 		{
-			
+			if (line1.size() <= line2.size() && line1.size() <= line3.size())
+			{
+				line1.push(customer);
+			}
+			else if (line2.size() <= line1.size() && line2.size() <= line3.size())
+			{
+				line2.push(customer);
+			}
+			else
+			{
+				line3.push(customer);
+			}
+
+			cout << "\t\tCash register #1: ";
+
+			displayCarts(line1);
+
+			if (chance == 1) //50% chance that the customer will be finished checking out
+			{
+				line1.pop(); //pops customer out of the queue
+				++served;
+			}
+
+			cout << "\n\n\t\tCash register #2: ";
+
+			displayCarts(line2);
+
+			if (!line2.empty())
+			{
+				if (chance == 1) //50% chance that the customer will be finished checking out
+				{
+					line2.pop(); //pops customer out of the queue
+					++served;
+				}
+			}
+
+			cout << "\n\n\t\tCash register #3: ";
+
+			displayCarts(line3);
+
+			if (!line3.empty())
+			{
+				if (chance == 1) //50% chance that the customer will be finished checking out
+				{
+					line3.pop(); //pops customer out of the queue
+					++served;
+				}
+			}
 		}
 		break;
 		case 4:
@@ -150,7 +201,7 @@ void Costco::simulateLine() //simulates the costco lines
 			
 		}
 		}
-		//this_thread::sleep_for(chrono::seconds(1)); //delays for 1 second before starting the next loop
+		this_thread::sleep_for(chrono::seconds(1)); //delays for 1 second before starting the next loop
 	}
 }
 void Costco::displayCarts(queue<int> line)
@@ -164,4 +215,28 @@ void Costco::displayCarts(queue<int> line)
 			cout << "  " << string(4, char(254));
 		}
 	}
+}
+int Costco::longestLine(queue<int>& line1, queue<int>& line2, queue<int>& line3, queue<int>& line4, queue<int>& line5, queue<int>& line6, queue<int>& line7, queue<int>& line8, queue<int>& line9, queue<int>& line10)
+{
+	int longest;
+
+	vector<int> line;
+
+	line.push_back(line1.size());
+	line.push_back(line2.size());
+	line.push_back(line3.size());
+	line.push_back(line4.size());
+	line.push_back(line5.size());
+	line.push_back(line6.size());
+	line.push_back(line7.size());
+	line.push_back(line8.size());
+	line.push_back(line9.size());
+	line.push_back(line10.size());
+
+	sort(line.begin(), line.end());
+
+	longest = line.front();
+
+	
+	return longest;
 }
