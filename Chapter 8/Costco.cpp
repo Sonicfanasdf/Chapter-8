@@ -150,7 +150,7 @@ void Costco::simulateLine() //simulates the costco lines
 			
 		}
 		}
-		//this_thread::sleep_for(chrono::seconds(1));
+		//this_thread::sleep_for(chrono::seconds(1)); //delays for 1 second before starting the next loop
 	}
 }
 void Costco::displayCarts(queue<int> line)
