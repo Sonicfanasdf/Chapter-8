@@ -2,6 +2,8 @@
 #include<iostream>
 #include<queue>
 #include<string>
+#include<chrono>
+#include<thread>
 
 using namespace std;
 
@@ -24,4 +26,5 @@ public:
 	int getServed() const;
 	void costcoMenu();
 	void simulateLine();
+	void displayCarts(queue<int> line);
 };

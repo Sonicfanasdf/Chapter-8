@@ -39,7 +39,7 @@ void Costco::costcoMenu()
 
 	simulateLine();
 }
-void Costco::simulateLine()
+void Costco::simulateLine() //simulates the costco lines
 {
 	queue<int> line1;
 	queue<int> line2;
@@ -53,8 +53,10 @@ void Costco::simulateLine()
 	queue<int> line10;
 	int size = 0;
 	int customer = 0;
+	
+	//setServed(1);
 
-	while (time-- > 0)
+	while (time-- > 0) //does loop until out of time
 	{
 		system("cls");
 
@@ -68,17 +70,16 @@ void Costco::simulateLine()
 		{
 			cout << "\t\tCash register #1: ";
 
-			line1.push(customer);
+			line1.push(customer); //pushes customer into queue
 
-			cout << "\n\t\t\t\t" << string(1, char(254)) << line1.size() << string(1, char(254));
+			displayCarts(line1); //displays the line visually
 
-			for (int i = 0; i < line1.size() - 1; i++)
+			if (0 + rand() % 2) //50% chance that the customer will be finished checking out
 			{
-				cout << "  " << string(4, char(254));
+				line1.pop();
+				++served;
 			}
-
-			line1.pop();
-			++served;
+			
 		}
 		break;
 		case 2:
@@ -117,5 +118,15 @@ void Costco::simulateLine()
 			
 		}
 		}
+		this_thread::sleep_for(chrono::seconds(1));
+	}
+}
+void Costco::displayCarts(queue<int> line)
+{
+	cout << "\n\t\t\t\t" << string(1, char(254)) << line.size() << string(1, char(254));
+
+	for (int i = 0; i < line.size() - 1; i++)
+	{
+		cout << "  " << string(4, char(254));
 	}
 }
