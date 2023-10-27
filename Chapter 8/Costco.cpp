@@ -78,6 +78,8 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance); //displays the line visually
 
+			chance = rand() % 2;
+
 			if (chance == 1) //50% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
@@ -104,7 +106,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -116,7 +118,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if(!line2.empty())
 			{ 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line2.pop(); //pops customer out of the queue
 				++served;
@@ -175,7 +177,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -187,7 +189,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -201,7 +203,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -260,7 +262,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -272,7 +274,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -285,7 +287,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -298,7 +300,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -358,7 +360,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -370,7 +372,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -383,7 +385,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -396,7 +398,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -409,7 +411,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -468,7 +470,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -480,7 +482,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -493,7 +495,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -506,7 +508,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //200% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -519,7 +521,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -532,7 +534,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line6.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line6.pop(); //pops customer out of the queue
 					++served;
@@ -591,7 +593,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -603,7 +605,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -616,7 +618,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -629,7 +631,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -642,7 +644,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -655,7 +657,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line6.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line6.pop(); //pops customer out of the queue
 					++served;
@@ -668,7 +670,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line7.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line7.pop(); //pops customer out of the queue
 					++served;
@@ -727,7 +729,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -739,7 +741,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -752,7 +754,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -765,7 +767,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -778,7 +780,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -791,7 +793,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line6.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line6.pop(); //pops customer out of the queue
 					++served;
@@ -804,7 +806,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line7.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line7.pop(); //pops customer out of the queue
 					++served;
@@ -817,7 +819,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line8.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line8.pop(); //pops customer out of the queue
 					++served;
@@ -876,7 +878,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -888,7 +890,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -901,7 +903,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -914,7 +916,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -927,7 +929,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -940,7 +942,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line6.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line6.pop(); //pops customer out of the queue
 					++served;
@@ -953,7 +955,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line7.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line7.pop(); //pops customer out of the queue
 					++served;
@@ -966,7 +968,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line8.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line8.pop(); //pops customer out of the queue
 					++served;
@@ -979,7 +981,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line9.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line9.pop(); //pops customer out of the queue
 					++served;
@@ -1038,7 +1040,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			displayCarts(line1, chance);
 
-			if (chance == 1) //50% chance that the customer will be finished checking out
+			if (chance == 1) //20% chance that the customer will be finished checking out
 			{
 				line1.pop(); //pops customer out of the queue
 				++served;
@@ -1050,7 +1052,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line2.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line2.pop(); //pops customer out of the queue
 					++served;
@@ -1063,7 +1065,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line3.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line3.pop(); //pops customer out of the queue
 					++served;
@@ -1076,7 +1078,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line4.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line4.pop(); //pops customer out of the queue
 					++served;
@@ -1089,7 +1091,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line5.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line5.pop(); //pops customer out of the queue
 					++served;
@@ -1102,7 +1104,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line6.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line6.pop(); //pops customer out of the queue
 					++served;
@@ -1115,7 +1117,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line7.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line7.pop(); //pops customer out of the queue
 					++served;
@@ -1128,7 +1130,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line8.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line8.pop(); //pops customer out of the queue
 					++served;
@@ -1141,7 +1143,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line9.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line9.pop(); //pops customer out of the queue
 					++served;
@@ -1154,7 +1156,7 @@ void Costco::simulateLine() //simulates the costco lines
 
 			if (!line10.empty())
 			{
-				if (chance == 1) //50% chance that the customer will be finished checking out
+				if (chance == 1) //20% chance that the customer will be finished checking out
 				{
 					line10.pop(); //pops customer out of the queue
 					++served;
@@ -1162,7 +1164,7 @@ void Costco::simulateLine() //simulates the costco lines
 			}
 		}
 		}
-		//this_thread::sleep_for(chrono::seconds(1)); //delays for 1 second before starting the next loop
+		this_thread::sleep_for(chrono::seconds(1)); //delays for 1 second before starting the next loop
 	}
 }
 void Costco::displayCarts(queue<int> line, int& chance)
