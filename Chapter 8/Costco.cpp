@@ -126,43 +126,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 3:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 3) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -211,43 +211,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 4:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 4) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -309,43 +309,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 5:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 5) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -419,43 +419,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 6:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 6) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -542,43 +542,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 7:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 7) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -678,43 +678,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 8:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 8) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -827,43 +827,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 	    case 9:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 9) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -989,43 +989,43 @@ void Costco::simulateLine() //simulates the costco lines
 		break;
 		case 10:
 		{
-			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line1.size())
+			if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line1.size())
 			{
 				line1.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line2.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line2.size())
 			{
 				line2.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line3.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line3.size())
 			{
 				line3.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line4.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line4.size())
 			{
 				line4.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line5.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line5.size())
 			{
 				line5.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line6.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line6.size())
 			{
 				line6.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line7.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line7.size())
 			{
 				line7.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line8.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line8.size())
 			{
 				line8.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line9.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line9.size())
 			{
 				line9.push(customer);
 			}
-			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10) == line10.size())
+			else if (longestLine(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10, 10) == line10.size())
 			{
 				line10.push(customer);
 			}
@@ -1178,7 +1178,7 @@ void Costco::displayCarts(queue<int> line, int& chance)
 	}
 	chance = rand() % 5;
 }
-int Costco::longestLine(queue<int>& line1, queue<int>& line2, queue<int>& line3, queue<int>& line4, queue<int>& line5, queue<int>& line6, queue<int>& line7, queue<int>& line8, queue<int>& line9, queue<int>& line10)
+int Costco::longestLine(queue<int>& line1, queue<int>& line2, queue<int>& line3, queue<int>& line4, queue<int>& line5, queue<int>& line6, queue<int>& line7, queue<int>& line8, queue<int>& line9, queue<int>& line10, int size)
 {
 	int longest;
 
@@ -1229,16 +1229,95 @@ int Costco::longestLine(queue<int>& line1, queue<int>& line2, queue<int>& line3,
 		line.push_back(line1.size());
 	}*/
 	
-	line.push_back(line1.size());
-	line.push_back(line2.size());
-	line.push_back(line3.size());
-	line.push_back(line4.size());
-	line.push_back(line5.size());
-	line.push_back(line6.size());
-	line.push_back(line7.size());
-	line.push_back(line8.size());
-	line.push_back(line9.size());
-	line.push_back(line10.size());
+	if (size == 1)
+	{
+		line.push_back(line1.size());
+	}
+	else if (size == 2)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+	}
+	else if (size == 3)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+	}
+	else if (size == 4)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+	}
+	else if (size == 5)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+	}
+	else if (size == 6)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+		line.push_back(line6.size());
+	}
+	else if (size == 7)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+		line.push_back(line6.size());
+		line.push_back(line7.size());
+	}
+	else if (size == 8)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+		line.push_back(line6.size());
+		line.push_back(line7.size());
+		line.push_back(line8.size());
+	}
+	else if (size == 9)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+		line.push_back(line6.size());
+		line.push_back(line7.size());
+		line.push_back(line8.size());
+		line.push_back(line9.size());
+	}
+	else if (size == 10)
+	{
+		line.push_back(line1.size());
+		line.push_back(line2.size());
+		line.push_back(line3.size());
+		line.push_back(line4.size());
+		line.push_back(line5.size());
+		line.push_back(line6.size());
+		line.push_back(line7.size());
+		line.push_back(line8.size());
+		line.push_back(line9.size());
+		line.push_back(line10.size());
+	}
+	
+	
+	 
+	
 
 	sort(line.begin(), line.end());
 
